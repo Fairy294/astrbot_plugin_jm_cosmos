@@ -1,0 +1,30 @@
+__pycache__/
+.env
+*.pyc
+.pytest_cache/
+
+# Local environments, audit notes and generated artifacts
+.venv/
+venv/
+.ai-memory/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.env.*
+!.env.example
+!tests/.env.example
+*.pem
+*.key
+
+# Runtime accounts, session state and downloaded content
+data/
+downloads/
+covers/
+jmcomic_debug/
+logs/
+cookies.json
+*.db
+*.db-shm
+*.db-wal
+*.log
